@@ -1,0 +1,125 @@
+.logo__liv {
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+
+.count__like {
+    width: 50px;
+    height: 50px;
+    margin-left: 270px;
+}
+
+.form {
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+
+.input {
+    border-radius: 15px;
+    border: 2px solid #000;
+    background: #FFF;
+    width: 260px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.item {
+    max-width: 300px;
+    width: 100%;
+    height: 420px;
+    list-style: none;
+    border-radius: 20px;
+    border: 2px solid #000;
+    background: #FFF;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.item__img {
+    margin: 0;
+    padding: 0;
+    margin-left: 75px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.line {
+    background-color: #000;
+    max-width: 300px;
+    width: 100%;
+    height: 2px;
+    display: block;
+}
+
+.heading {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.text {
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    padding-left: 17px;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 25px;
+}
+
+.span__vazin {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 20px;
+}
+
+.span__yosh {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 20px;
+}
+
+.buttons {
+    padding: 10px 46px;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 12px;
+
+    &:hover{
+        color: #000000;
+        background-color: #ffffff;
+    }
+}
+
+.btn {
+    position: absolute;
+    transform: translate(200px, -80px);
+}
